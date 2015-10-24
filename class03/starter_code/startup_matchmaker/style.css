@@ -1,0 +1,78 @@
+.smt_nav_outer {
+	position:relative;
+	display:block;
+	width:100%;
+	background-color:black;
+	border-bottom:3px solid #FFFF2B ;
+	overflow:hidden;
+}
+
+.smt_nav_logo {
+	float:left;
+	width: 320px;
+	font-size:28px;
+	color: #FFFF2B;
+	margin: 20px;
+	font-family: "merriweather", georgia, serif;
+}
+
+.smt_nav_menu {
+	float:right;
+	margin:10px 30px 10px 0;
+}
+
+.smt_nav_menu > li {
+	display:inline-block;
+	font-family:'Source Sans Pro',arial,sans-serif;
+	font-size: 20px;
+}
+
+.smt_nav_menu > li > a{
+	color: white;
+	text-decoration: none;
+	display:block;
+	padding:10px;
+}
+.smt_nav_menu > li > a:hover {
+	color:#FFFF2B ;
+}
+
+
+.smt_nav_menu_featured > a{
+	color: white;
+	text-decoration: none;
+	display:block;
+	text-transform:uppercase;
+	font-weight: bold;
+	padding:10px;
+	font-family:'Oswald', sans-serif;
+}
+
+.smt_tagline {
+	background: #CDCDCD;
+	padding:20px;
+	text-align:center;
+}
+
+.smt_homebanner{
+	position: relative;
+	display: block;
+	clear: both;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+	width:100%;
+	background: url(images/coworking.jpg) no-repeat top center;
+	background-size:cover;
+}
+
+.smt_homebanner_featuredbox {
+	position: relative;
+	display:block;
+	overflow:hidden;
+	width:400px;
+	float:right;
+	padding: 30px;
+	margin: 30px;
+	background: rgba(255,255,255,0.6);
+}

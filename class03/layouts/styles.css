@@ -1,0 +1,26 @@
+.container {
+	background: #D8D8D8;
+	border: 1px solid #AFAFAF;
+	margin-bottom: 20px;
+	padding: 50px;
+}
+
+header,
+footer {
+	clear: both;
+	float: left;
+	width: 100%;
+}
+
+.main {
+	float: left;
+	width: 62%;
+	margin-right: 20px;
+}
+
+.sidebar {
+	float: right;
+	width: 35%;
+}
+
+
